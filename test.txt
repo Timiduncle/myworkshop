@@ -1,19 +1,2 @@
-gitTest
-<<<<<<< HEAD
-11111111111
-=======
-11111111111
+gitTest£¬this is my first txt
 
-
-
-devtest
-
-
-
-
-
-
-
-
-devtest2
->>>>>>> dev
