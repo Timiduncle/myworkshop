@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0"/>
+    <script type="text/javascript" src="http://libs.useso.com/js/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="wxJs/jquery-1.8.3.min.js"><script>')</script>
+    <title>填写爱车信息</title>
+        <link rel="stylesheet" href="wxCss/resetWx.css"/>
+        <link rel="stylesheet" href="wxCss/WeiChatWx.css">
+    <style>
+        body{background-color:#f3f5f7;overflow:hidden;}
+    </style>
+    </head>
+    <body>
+    <form action="">
+        <div class="mycar_infor_top">
+            <img src="imagesWx/2015001600000000001.gif" alt="car_logo"/>
+            <p class="">奥迪A4L 201630TSFI 自动豪华型</p>
+            <span class="n_narr_"></span>
+        </div>
+        <div class="myCar_infor_mid">
+            <ul>
+                <li><i class="i_1"></i><span>购车时间：</span><input type="text" placeholder="选择时间" title=""/></li>
+                <li><i class="i_2"></i><span>行驶里程：</span><input type="text"
+                                                                id="travel_mileage" placeholder="请输入公里数" title="" style="color:#ff4657;font-size:16px;"><em>公里</em></li>
+                <li><i class="i_3"></i><span>车牌号码：</span><select class="s_p"
+                                                                 id="shengfen">
+                    <option value="京">京</option>
+                    <option value="津">津</option>
+                    <option value="冀">冀</option>
+                    <option value="蒙">蒙</option>
+                    <option value="黑">黑</option>
+                    <option value="吉">吉</option>
+                    <option value="辽">辽</option>
+                    <option value="沪">沪</option>
+                    <option value="渝">渝</option>
+                    <option value="新">新</option>
+                    <option value="藏">藏</option>
+                    <option value="宁">宁</option>
+                    <option value="桂">桂</option>
+                    <option value="港">港</option>
+                    <option value="澳">澳</option>
+                    <option value="晋">晋</option>
+                    <option value="青">青</option>
+                    <option value="鲁">鲁</option>
+                    <option value="豫">豫</option>
+                    <option value="苏">苏</option>
+                    <option value="皖">皖</option>
+                    <option value="浙">浙</option>
+                    <option value="闽">闽</option>
+                    <option value="赣">赣</option>
+                    <option value="湘">湘</option>
+                    <option value="鄂">鄂</option>
+                    <option value="粤">粤</option>
+                    <option value="琼">琼</option>
+                    <option value="甘">甘</option>
+                    <option value="陕">陕</option>
+                    <option value="黔">黔</option>
+                    <option value="滇">滇</option>
+                    <option value="川">川</option>
+
+
+                </select> <select class="s_s" id="shouzm">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                    <option value="G">G</option>
+                    <option value="H">H</option>
+                    <option value="I">I</option>
+                    <option value="J">J</option>
+                    <option value="K">K</option>
+                    <option value="L">L</option>
+                    <option value="M">M</option>
+                    <option value="N">N</option>
+                    <option value="O">O</option>
+                    <option value="P">P</option>
+                    <option value="Q">Q</option>
+                    <option value="R">R</option>
+                    <option value="S">S</option>
+                    <option value="T">T</option>
+                    <option value="U">U</option>
+                    <option value="V">V</option>
+                    <option value="W">W</option>
+                    <option value="X">X</option>
+                    <option value="Y">Y</option>
+                    <option value="Z">Z</option>
+
+                </select> <input type="text" id="carCph" title="" placeholder=""
+                                 style="left:200px;width:100px;padding-left:0;border-bottom:1px solid #f1f1f1;top:10px;height:40px;" /></li>
+            </ul>
+            <div class="n_fixed">
+                <input type="submit" value="保存" class="submit_ipt"/>
+            </div>
+
+        </div>
+
+    </form>
+    <script>
+        var oHeight = $(document).height(); //浏览器当前的高度
+
+        $(window).resize(function(){
+
+            if($(document).height() < oHeight){
+
+                $(".n_fixed").css("position","static");
+            }else{
+
+                $(".n_fixed").css("position","fixed");
+            }
+
+        });
+    </script>
+    </body>
+</html>
+

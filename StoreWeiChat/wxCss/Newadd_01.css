@@ -1,0 +1,18 @@
+.coding{width:90%;max-width:640px;margin:0 auto;text-align:center;margin-top:100px;}
+.coding h2{color:#dfdfdf;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;font-size:24px;text-align:center;}
+.coding img{text-align:center; border:none;margin:0 auto;}
+
+.my_head{background:url("../imagesWx/banner_background.png") no-repeat center center scroll;margin:0 auto;max-width:640px;width:100%;position:relative;height:140px;margin-bottom:10px;}
+.my_head_img{position:absolute;left:50%;width:60px;height:auto;margin-left:-30px;top:20%;border-radius:60px;display:inline-block;}
+.my_head_img img{border-radius:60px;}
+
+.my_tel{display:inline-block;color:#ffffff;font-size:18px;text-align:center;width:100%;position:absolute;bottom:10px;height:30px;line-height:30px;font-style:normal;}
+.my_setting{width:100%;max-width:640px;margin:0 auto;}
+.my_setting li{width:100%;height:50px;background:url("../imagesWx/mynext.png") 96% center no-repeat;background-color:#ffffff;position:relative;border-bottom:1px solid #d5d5d5;line-height:40px;background-size:16px auto;}
+
+.my_setting li:last-child{border:none;}
+.my_setting li i{display:inline-block;width:30px;height:30px;position:absolute;top:10px;left:10px;border-radius:2px;}
+.my_head_i_02{background:url("../imagesWx/n_car.png") no-repeat center center;background-size:22px auto;}
+.my_head_p{width:64%;margin:0 auto;font-size:14px;color:#222222;height:50px;line-height:50px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+.my_head_i_01{background:url("../imagesWx/n_tx.png") no-repeat center center;background-size:22px auto;}
+.my_head_i_03{background:url("../imagesWx/n_s_j.png") no-repeat center center;background-size:22px auto;}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+<title>门店公众号</title>
+<script src="wxJs/jquery-1.11.2.min.js" language="javascript"></script>
+<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+ <script src="wxJs/door_common.js" type="text/javascript"></script>
+ <script src="wxJs/jqLoding.js" type="text/javascript"></script>
+<script language='javascript'>
+
+//用于得到前面传来的参数
+function getQuery(name){
+	var reg=new RegExp("(^|&)"+name+"=([^&]*)(&|$)");
+	var r=window.location.search.substr(1).match(reg);
+	return r!=null?r[2]:"";
+};
+var code=getQuery("code");//从上一页面得到数据code
+var state=getQuery("state");//从上一页面得到数据state  0发布需求1需求列表2个人中心
+var tourl="index.html";//默认是首页
+
+if(state=="0"){
+	tourl='aa.html';
+}
+if(state=="1"){
+	tourl='myneedList.html';
+}
+if(state=="2"){
+	tourl='userinfo.html';
+}
+if(state=="4"){
+	tourl='wuliuList.html';
+}
+if(state=="6"){
+	tourl='orderList.html';
+}
+if(state=="7"){
+	tourl='instruction.html';
+}
+alert(tourl);
+ window.location=tourl;
+/* //得到用户的openId
+$.get(context+"/wxApp/FindUserOpenId?code="+code,function(data){	
+		//alert(code+','+data.useropenid);
+		 window.localStorage.setItem("useropenid", data.useropenid);//设置缓存
+		 //alert(data.useropenid+''+code);
+		 //得到此用户是否已在表中进行了注册
+		 $.get(context+"/wxpt/finduser?openid="+data.useropenid,function(data2){	
+			 //alert(data2.id);
+			 if(data2==null||data2==""||data2.id==null){//未注册需要进行注册
+			 	window.location='login.html?url='+tourl;
+			 }else{//已注册，根据参数进行跳转			  	 
+			  	 window.localStorage.setItem("usermobile", data2.mobile);//设置缓存
+				 window.localStorage.setItem("username", data2.name);//设置缓存
+				 window.localStorage.setItem("useraddress", data2.address);//设置缓存
+				 window.localStorage.setItem("userid", data2.id);//设置缓存				 
+				 window.location=tourl;
+			  }
+		 });
+}); */
+</script>
+</head>
+<body >
+<!-- <div id="loading" class="loading"></div> -->
+</body>
+</html>

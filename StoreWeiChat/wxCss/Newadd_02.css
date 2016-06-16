@@ -1,0 +1,151 @@
+
+.New_wrap{width:100%;max-width:640px;height:auto;margin:0 auto;}
+.New_wrap h3{width:100%;text-align:center;color:white;
+           font-family:"宋体", "microsoft yahei", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:16px;
+             height:40px;line-height:40px;background-color:#3e454d;margin-bottom:1px;}
+.New_infor{height:130px;position:relative;margin-bottom:8px;background-color:#f3f5f7;border-bottom:1px solid #b5b5b5;}
+.New_infor_l,.New_infor_r{float:left;background-color:#f3f5f7;}
+.New_infor_l{width:22%;position:absolute;top:32px;left:18px;}
+.New_infor_l img{width:60px;height:80px;}
+
+
+.New_infor_r{width:74%;height:auto;background-color:#f3f5f7;text-align:left;position:absolute;left:20%;top:9px;margin-left:4px;}
+.New_infor_r span{position:absolute;display:inline-block;width:auto;height:40px;line-height:40px;font-size:14px;color:#666666;font-family:"宋体", "microsoft yahei", Tahoma, Verdana, Arial, Helvetica, sans-serif;top:0;left:60px;}
+.New_infor_r a{position:absolute;display:inline-block;width:auto;height:40px;line-height:40px;font-size:14px;color:#666666;font-family:"宋体", "microsoft yahei", Tahoma, Verdana, Arial, Helvetica, sans-serif;top:0;left:60px;}
+.New_infor_r i{display:inline-block;width:28px;height:28px;position:absolute;background-size: 22px auto;left:20px;top:6px;}
+.New_infor_r ul{text-align:center;width:auto;}
+.New_infor_r li{width:86%;height:40px;line-height:40px;position:relative;padding:0 5%;}
+.New_i_01{background:url("../imagesWx/n_tx.png") no-repeat center center;}
+.New_i_02{background:url("../imagesWx/n_gp.png") no-repeat center center;}
+.New_i_03{background:url("../imagesWx/n_tellll.png") no-repeat center center;}
+.New_content{width:92%;height:auto;background-color:#ffffff;padding:2% 4%;border-top:1px solid #b5b5b5;}
+.New_content h4{width:100%;height:36px;line-height:36px;font-size:16px;text-align:center;color:#191818;}
+.New_content p{width:100%;height:auto;font-size:14px东易日盛;color:#6f6f6f;line-height:26px;font-family:"宋体", "microsoft yahei", Tahoma, Verdana, Arial, Helvetica, sans-serif;;}
+
+
+/*我的信息*/
+.my_head_01{background:url("../imagesWx/banner_background_03.png") no-repeat center center scroll;margin:0 auto;max-width:640px;width:100%;position:relative;height:140px;margin-bottom:10px;opacity:.5}
+.my_head_img{position:absolute;left:50%;width:60px;height:auto;margin-left:-30px;top:24%;}
+.my_head_img img{border-radius:60px;}
+.my_head{background:url("../imagesWx/banner_background.png") no-repeat center center scroll;margin:0 auto;max-width:640px;width:100%;position:relative;height:140px;margin-bottom:10px;}
+.my_infor_content{width:100%;max-width:640px;background-color:#ffffff;margin:0 auto;}
+.my_infor_content ul{width:100%;margin:0 auto;height:auto;}
+.my_infor_content ul li{width:90%;padding:0 5%;margin:0 auto;height:44px;line-height:44px;color:#929aa4;font-size:14px;position:relative;border-bottom:1px solid #d5d5d5;}
+.my_infor_content ul li:last-child{border:none;}
+.my_infor_content ul li span{display:inline-block;width:32px;height:44px;position:absolute;left:0;top:0;background-size:24px auto;font-size:14px;color:#999999;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+.my_infor_content_01{background:url("")}
+.my_infor_content_02{}
+.my_infor_content_03{}
+.my_infor_content_04{}
+.my_infor_content_05{}
+.my_infor_content ul li i{display:inline-block;font-style:normal;color:#222222;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+
+/*服务顾问新版*/
+.n_n_New_wrap{width:100%;max-width:640px;margin:0 auto;height:auto;}
+.n_n_top{width:100%;max-width:640px;margin:0 auto;height:auto;position:relative;}
+.n_n_touxiang{position:absolute;top:10%;left:50%;margin-left:-50px;width:100px;height:100px;
+              display:inline-block;background-color:#ffffff;border:2px solid #b1e9ca;border-radius:100px;}
+.n_n_touxiang img{text-align:center;line-height:92px;height:92px;border-radius:84px;left:4px;top:4px;position:relative;}
+.n_n_name{position:absolute;width:100%;height:44px;line-height:44px;color:#333333;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif
+          ;font-size:14px;text-align:center;top:52%;
+}
+
+
+.n_n_ul{position:absolute;bottom:0;width:100%;max-width:640px;border-bottom:1px solid #b5b5b5;text-align:center;height:70px;}
+.n_n_ul li{display:inline-block;width:46%;height:60px;border-right:1px solid #b5b5b5;position:relative;}
+.n_n_ul li:last-child{border:none;}
+.n_n_ul li i{display:inline-block;height:26px;width:100%;}
+.n_n_ul li .n_n_i01{background:url("../imagesWx/n_n_icon_tel.png") center center no-repeat;background-size:24px auto;}
+.n_n_ul li .n_n_i02{background:url("../imagesWx/n_n_icon_brand.png") center center no-repeat;background-size:24px auto;}
+.n_n_ul li span{display:inline-block;height:34px;width:100%;text-align:center;line-height:34px;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;color:#333333;}
+
+.n_n_bottom{width:100%;max-width:640px;margin:0 auto;height:auto;}
+.n_n_bottom h4{color:#333333;font-size:16px;
+               text-align:center;height:44px;line-height:44px;width:94%;margin:0 auto;
+              font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif}
+.n_n_bottom p{text-align:center;font-size:14px;line-height:26px;color:#666666;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+              height:auto;width:90%;padding:2%;margin:0 auto;}
+.n_n_btn{width:100%;max-width:640px;margin:0 auto;height:44px;margin-top:20px;text-align:center;}
+.n_n_btn a{display:inline-block;width:80%;height:44px;margin:0 auto;line-height:44px;color:#ffffff;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+           font-size:14px;text-align:center;background-color:#25c56e;border-radius:4px;
+}
+
+
+
+
+
+/*分享*/
+.n_n_share_bg{position:absolute;z-index:-1;top:0;}
+.n__n_share{position:absolute;top:0;left:50%;width:100%;max-width:640px;z-index:9999;}
+.n_n_title_{width:100%;text-align:center;height:44px;line-height:44px;font-size:18px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+            color:#222222;margin:0 auto;
+}
+.n_n_erweima{width:100%;max-width:640px;
+             text-align:center;line-height:140px;
+             margin:0 auto;background:url("../imagesWx/n_n_erwei_bg.png") center center no-repeat scroll;background-size:130px auto;height:140px;position:relative;}
+
+.n_n_erweima img{width:100px;height:100px;position:absolute;top:20px;left:50%;margin-left:-50px;}
+
+.n_n_share_content{width:100%;margin:0 auto;max-width:640px;}
+.n_n_share_content p{width:80%;padding:2%;margin:0 auto;color:#666666;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    line-height:26px;text-align:left;max-width:640px;}
+.n_n_share_new_btn{width:100%;max-width:640px;margin:0 auto;height:60px;line-height:60px;text-align:center}
+.n_n_share_new_btn a{width:70%;max-width:640px;margin:0 auto;height:44px;line-height:44px;background-color:#25c56e;
+                      color:#ffffff;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+                      text-align:center;border-radius:4px;display:inline-block;;
+}
+
+
+
+
+.n_n_d_wrap{width:100%;max-width:640px;margin:0 auto;height:auto;margin-bottom:10px;}
+.n_n_d_top{width:100%;max-width:640px;margin:0 auto;}
+.n_n_d_top ul{width:100%;text-align:center;max-width:640px;background-color:#ffffff;height:70px;}
+.n_n_d_top ul li{width:32%;position:relative;display:inline-block;height:70px;}
+
+
+.n_n_d_li01{background:url("../imagesWx/n_s_j.png") no-repeat 5px center;background-size:24px auto;}
+.n_n_d_li02{background:url("../imagesWx/n_s_juan.png") no-repeat 5px center;background-size:24px auto;}
+.n_n_d_li03{background:url("../imagesWx/n_qqqq.png") no-repeat 5px center;background-size:24px auto;}
+
+.n_n_d_s_top{position:absolute;left:0;top:0;height:40px;line-height:40px;text-align:center;width:100%;color:#333333;font-size:14px;}
+.n_n_d_s_bottom{position:absolute;left:0;top:40px;height:30px;line-height:30px;text-align:center;width:100%;color:#ff4657;font-size:14px;}
+
+.n_n_d_list{width:100%;max-width:640px;height:auto;margin-top:10px;}
+.n_n_d_list>li{display:block;height:100px;width:100%;margin:0 auto;margin-bottom:10px;}
+
+.n_n_d_list_top{width:100%;height:44px;line-height:44px;background-color:#f3f5f7;border-bottom:1px solid #b5b5b5;position:relative;}
+.n_n_d_list_top i{display:inline-block;width:44px;height:44px;background:url("../imagesWx/n_tx.png") no-repeat center center;background-size:24px auto; }
+.n_n_d_list_span{display:inline-block;height:44px;line-height:44px;text-align:left;color:#333333;position:absolute;top:0;font-size:16px;}
+.n_n_d_list_em{position:absolute;right:5px;height:44px;line-height:44px;font-size:12px;color:#666666;
+             top:0;
+            font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+
+
+.n_n_d_list_bottom{width:100%;max-width:640px;margin:0 auto;height:56px;line-height:56px;position:relative;background-color:#ffffff;}
+.n_n_d_list_bottom ul{text-align:center;width:100%;margin:0 auto;height:56px;}
+.n_n_d_list_bottom li{width:32%;height:56px;line-height:56px;text-align:center;color:#666666;
+                     display:inline-block;;
+    font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+.n_n_d_list_bottom li span{display:inline-block;height:56px;line-height:56px;color:#ff4657;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+
+
+
+
+.n_n_erweima_callback{width:100%;max-width:640px;
+    text-align:center;line-height:190px;
+    margin:0 auto;background:url("../imagesWx/n_n_erwei_bg.png") center center no-repeat scroll;
+    background-size:180px auto;height:190px;position:relative;}
+
+
+.n_n_erweima_callback img{width:150px;height:150px;position:absolute;top:20px;left:50%;margin-left:-75px;}
+
+
+.n_n_title_callback{width:100%;text-align:center;height:44px;line-height:44px;
+    font-size:18px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    color:#25c56e;margin:0 auto;}
+
+
+
+

@@ -1,0 +1,19 @@
+
+
+.contact_bg{width:100%;max-width:640px;margin:0 auto;position:relative}
+.contact_btn{position:absolute; bottom:24px;max-width:640px;width:100%;margin:0 auto;}
+.contact_btn ul li{display:block;width:100%;height:36px;line-height:36px;position:relative;margin-bottom:10px;}
+.contact_btn ul li i{display:inline-block;width:36px;height:36px;position:absolute;top:0;left:10px;}
+.n_t_tel{background:url("../imagesWx/n_tell.png") no-repeat center center scroll;background-size:30px auto;}
+.n_i_addd{background:url("../imagesWx/n_aaddd.png") no-repeat center center scroll;background-size:30px auto;}
+.contact_btn ul li .n_s_adddd{display:inline-block;width:auto;height:36px;position:absolute;top:0;left:50px;line-height:36px;
+                       font-size:16px;color:#e58b00;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+
+.contact_btn ul li .n_s_addd{display:inline-block;width:auto;height:36px;position:absolute;top:0;left:50px;line-height:36px;
+    font-size:16px;color:#666666;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+
+.n_t_tell{background:url("../imagesWx/n_telll.png") no-repeat center center scroll;background-size:30px auto;}
+
+
+
+

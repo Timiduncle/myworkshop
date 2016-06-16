@@ -1,0 +1,528 @@
+
+/*门店介绍*/
+
+
+/*#banner { position:relative;}*/
+.n_banner-box {width:100%;max-width:640px;height:auto;margin:0 auto;}
+.n_banner-show {width:100%;max-width:640px;height:auto;margin:0 auto;}
+.n_banner-show img {max-height:100%;width:auto}
+/*.banner-tab { width:100%; height:26px; background:rgba(0,0,0,0.5); left:0; bottom:0; position:absolute}
+.banner-tab p { position:absolute; height:13px; line-height:13px; font-size:0.8125rem; top:6px; left:12px; color:#fff}
+.banner-tab ul { position:absolute; height:7px; top:10px; right:5px;}
+.banner-tab li { position:relative; float:left; width:7px; height:7px; background:rgba(255,255,255,0.7); border-radius:3px; margin-right:5px; cursor:pointer}
+.banner-tab .active { background:#007edf}*/
+
+
+
+
+.b_in_topima{margin: 0 auto;width:100%;max-width: 640px;height: auto;padding: 0;}
+.b_in_topima img{width:100%;height: auto;}
+.b_in_content{margin: 0 auto;width:100%;max-width: 640px;height: auto;padding: 0;}
+.b_in_content h4{margin: 0 auto;width:96%;max-width:640px;padding: 6px 2%;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;height: 30px;line-height: 30px;font-size:16px;font-weight: normal;}
+
+.b_in_content p{text-align: center;color: #929aa4;font-size:14px;}
+.b_in_content ul{padding-top:50px;padding-bottom:0;padding-left:0;padding-right:0;text-align: center;}
+.b_in_content ul li{display: inline-block;width:45%;text-align: center;}
+.b_in_content ul li input{}
+
+
+
+.b_in_addes{background-color:#25c56e;display: inline-block;width:120px;height:44px;line-height:44px;
+    border: none;border-radius:2px;color: white;font-size:14px;}
+.b_in_tel{background-color:#f6af0c;display: inline-block;width:120px;height:44px;line-height:44px;
+    border: none;border-radius:2px;color: white;font-size:14px;}
+.b_in_content ul li a{display: inline-block;}
+/*.b_in_addes{background: url("../imagesWx/icon_address.png")  15%  center no-repeat;background-size: 14px auto;}*/
+/*.b_in_tel{background: url("../imagesWx/icon_tel.png")  15% center no-repeat;background-size: 14px auto;}*/
+.b_in_content_intro{width:94%;max-width: 640px;margin: 0 auto;padding: 0 6px 3%;}
+.b_in_content_intro h3{margin: 0 auto;width:100%;max-width:640px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;height: 30px;line-height: 30px;font-size:16px;font-weight: normal;color: #222222;padding: 12px 0;}
+.b_in_content_intro p{text-indent:2em;;line-height:28px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;color: #666666;font-size:14px;margin: 0 auto;width:100%;max-width: 640px;height: auto;text-align: left}
+.b_in_content_intro p img{width: 100%;height: auto;}
+
+
+.b_in_content_intro p{margin-bottom:20px;}
+
+/*登录*/
+
+
+
+.logobox{width:80px;height: 80px;margin: 0 auto;margin-top: 10%;}
+.logobox{background: url("../imagesWx/icon_logo.png") center center no-repeat;background-size: 80px auto;-webkit-background-size:80px auto;}
+.title_p{margin: 0 auto; width:100%;max-width: 640px;height: 30px;line-height: 30px;font-size: 16px;color: #929aa4;text-align: center;display: block}
+.login_box{width: 94%;max-width: 640px;height: auto;margin: 0 auto;}
+.login_box ul li{display: block;height:44px;margin:14px 0;position: relative;z-index: 9999;border-bottom: 1px solid #b5b5b5;width:100%;}
+.login_box ul li:last-child{border:none;}
+.icon_num{background: url("../imagesWx/n_tel.png") center center no-repeat;background-size: 22px auto;-webkit-background-size:22px auto;width: 26px;height: 26px;display: block;position: absolute;left: 0;top: 9px;}
+#iptname{border-radius:0;font-size:16px;-webkit-border-radius:0;width: 80%;height: 44px;border: none;display: block;line-height:20px;color: #929aa4;padding: 0 3%;position: absolute;left: 26px;}
+#ipttest{border-radius:0;font-size:16px;-webkit-border-radius:0;width: 80%;height: 44px;border: none;display: block;line-height:20px;color: #929aa4;padding: 0 3%;position: absolute;left:26px;}
+.icon_test{background: url("../imagesWx/n_testl.png") center center no-repeat;background-size:22px auto;-webkit-background-size:22px auto;width: 26px;height: 26px;display: block;position: absolute;left: 0;top: 9px;}
+.send_code{
+    position: absolute;width:100px;height:34px;display: block;
+    background-color: #25c56e;border-radius: 4px;color: #ffffff;
+    font-size:14px;line-height:34px;text-align: center;right:4%;top: 3px;
+}
+#subbtn{
+    display:block;width:96%;height:44px;line-height:44px;text-align: center;
+    color: #ffffff;font-size:18px;background-color: #25c56e;
+    border-radius:2px;-webkit-border-radius:2px;border: none;margin: 0 auto;
+}
+.login_bg{position:fixed;bottom:0;margin: 0 auto;left: 50%;margin-left: -320px;z-index: 1}
+.login_bg img{width:100%;height:auto;}
+.content_box{background: url("../imagesWx/login_bg_1.png")  no-repeat;background-size:auto 100%;/*width: 100%;height: 100%;position: relative;top: 0;left: 0;*/}
+
+/*保养提醒*/
+.wrap{width:99%;max-width: 640px;height: auto;margin: 0 auto;margin-top:10px;background-color:#ffffff}
+
+.wrap ul li{width:100%;display: block;height:54px;line-height:54px;position: relative;}
+.wrap ul li:first-child{border-top:1px solid #e5e5e5;border-bottom:1px solid #b5b5b5;}
+.wrap ul li:last-child{border-bottom:1px solid #e5e5e5;}
+
+
+.wrap ul li span{display: block;width: 28px;height: 28px;position: absolute;left: 9px;top: 13px;}
+.span01{background: url("../imagesWx/n_car.png") center center no-repeat;background-size: 22px auto;-webkit-background-size: 22px auto;}
+.span02{background: url("../imagesWx/n_addr.png") center center no-repeat;background-size: 22px auto;-webkit-background-size: 22px auto;}
+.car_select{position: absolute;left: 44px;height:50px;width: 80%;line-height:50px;top: 0;opacity: 0;z-index: 9999;font-size:14px;color:#666666;}
+.select_p{position: absolute;left: 44px;font-size:14px;color:#929aa4;height: 54px;width:88%;line-height:54px;top:0;background: url("../imagesWx/n_narr.png") 99% center no-repeat;background-size: 22px auto;-webkit-background-size:22px auto;z-index: 1}
+
+
+.n_yuyueinfor{width:99%;max-width:640px;margin:0 auto;background-color:#f3f5f7;height:44px;}
+.n_yuyueinfor_{width:100%;max-width:640px;margin:0 auto;background-color:#ffffff;height:44px;}
+
+.n_yuyueinfor p{width:90%;max-width:640px;margin:0 auto;color:#222222;height:44px;line-height:44px;text-align:left;font-size:16px;font-family:  "microsoft yahei","宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif}
+.n_yuyueinfor_ p{width:90%;max-width:640px;margin:0 auto;color:#222222;height:44px;line-height:44px;text-align:left;font-size:16px;font-family:  "microsoft yahei", "宋体",  Tahoma, Verdana, Arial, Helvetica, sans-serif}
+
+
+.n_label_{width:90%;max-width:640px;margin:0 auto;height:44px;position:relative;border:1px solid #b5b5b5;display:block;}
+
+.n_label_ input{height:44px;width:80%;position:absolute;line-height:26px;padding:0 6px;top:0;left:0;border: none; column-rule:#999999;font-size:14px;}
+.n_label_ span{position:absolute;display:inline-block;width:26px;height:26px;right:0;top:8px;right:2px;}
+
+
+
+.licheng_num{position: absolute;left: 44px;font-size:14px;color:#929aa4;height: 54px;width: 88%;line-height: 54px;top: 0;}
+#licheng_num{font-style: normal;font-size: 16px;color: #929aa4}
+
+
+#addCar{display:block;width:96%;height:44px;text-align: center;color: #ffffff;font-size:14px;background-color: #25c56e;border-radius:2px;-webkit-border-radius:2px;border: none;margin: 0 auto;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+
+
+/*车辆列表*/
+.car_list_box{width:100%;max-width: 640px;margin: 0 auto;}
+.car_list_box>ul>li{width:100%;max-width: 640px;margin: 0 auto;/*margin-top:8px;*/height:auto;display: block;position: relative;/*background-color:#ffffff;*/border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;margin-top:10px;}
+.car_box{width: 100%;/*background: url(../imagesWx/bg_Cars.png) no-repeat bottom right;*/}
+
+.n_p_r{position:relative;}
+
+
+
+
+
+
+
+
+.ima_span{position: absolute;-webkit-background-size:20px auto;background-size: 20px auto;width: 26px;height: 26px;display: inline-block;top: 13px;left:6px;}
+
+
+
+.car_box_p{margin-left:40px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;height: auto;color:#666666;font-size:16px;font-family:"宋体", "microsoft yahei", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+.car_box_p i{font-style: normal;font-size: 22px;color: #ff4657}
+.car_delete{background: url("../imagesWx/icon_delete.png") center center no-repeat;background-size: 22px auto;-webkit-background-size: 22px auto;width: 24px;height: 24px;position: absolute;right: 2px;bottom: 2px;cursor: pointer;}
+.car_box_top_pan{background: url("../imagesWx/icon_car.png") center center no-repeat}
+.car_box_mid_pan{background: url("../imagesWx/icon_carbrand.png") center center no-repeat}
+.car_box_btm_pan{background: url("../imagesWx/icon_licheng.png") center center no-repeat}
+.car_box li:nth-child(1){position: relative;width: 100%;height:36px;line-height:36px;/*border-bottom: 2px solid #ff4657*/;background-color: #ffffff;color: #333333;font-size: 16px;display: block;}
+.car_box li:nth-child(2){position: relative;width: 99.8%;height:36px;line-height:36px;color: #333333;font-size: 16px;display:block;background-color: #ffffff;/*border-right: 1px solid #e2e3e5;border-left: 1px solid #e2e3e5;*/z-index: -888;}
+.car_box li:nth-child(3){position: relative;width: 99.8%;height:36px;line-height:36px;color: #333333;font-size: 16px;display: block;background-color: #ffffff;/*box-shadow: #929aa4;border-right: 1px solid #e2e3e5;border-bottom: 1px solid #e2e3e5;border-left: 1px solid #e2e3e5;*/z-index: -888;}
+
+
+.car_brand_list_wrap{width:100%;max-width: 640px;margin: 0 auto;}
+.car_brand_numlist{width:100%;max-width: 640px;margin: 0 auto;}
+.car_brand_numlist li:last-child{border:none;}
+.car_brand_numlist li:not(:first-child) {position: relative;border-bottom: 1px solid #d7d7d7;background-color: #ffffff;height:50px;}
+.car_brand_numlist li:last-child{border-bottom:none;!important;}
+
+.car_brand_numlist li:not(:first-child)  img{width: 40px;height:auto;position: absolute;top:6px;left:20px;}
+.car_brand_numlist li:not(:first-child)  p{width: auto;height:auto;position: absolute;top:17px;left:72px;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;color: #000033;}
+.car_brand_num{width:88%;max-width: 640px;padding: 0 6%;height:30px;background-color: #f1f1f1;line-height:30px;font-size: 14px;}
+
+.car_brand_num a{color:#333333;}
+
+
+.car_brand_numlist_title img{width: 40px;height:auto;position: absolute;top: 5px;left: 20px;}
+.car_brand_numlist_title p{width: auto;height:auto;position: absolute;top: 0;left:80px;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;color: #17354f;}
+
+
+.car_brand_numlist_title{width:100%;max-width: 640px;margin: 0 auto;position: relative;height:50px;background-color:#ffffff;line-height: 50px;border-bottom:30px solid #f1f1f1;}
+.car_brand_numlist_ul{width: 100%;max-width: 640px;height: auto;}
+.car_brand_numlist_ul li{width: 80%;max-width: 640px;height: 50px;line-height:50px;padding: 0 10%;font-size:14px;color: #333333;border-bottom:1px solid  #d7d7d7;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;cursor: pointer;}
+
+
+
+.car_brand_type{width: 100%;max-width: 640px;margin:  0 auto;}
+.car_brand_type li{width: 92%;max-width: 640px;padding: 0 4%;height: 50px;border-bottom:1px solid #d7d7d7;line-height: 50px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;font-size:14px;color:#333333;}
+
+
+/*我的车辆信息*/
+.mycar_infor_top{width:98%;max-width:640px;margin:0 auto;height:70px;background-color:#f3f5f7;position:relative;}
+.n_narr_{position:absolute;width:26px;height:26px;top:22px;right:4px;background:url("../imagesWx/n_narr.png") no-repeat center center scroll;background-size:22px auto;}
+.mycar_infor_top img{width: 40px;height:auto;position:absolute;top:15px;left:10px;}
+.mycar_infor_top p{position:absolute;left:60px;top:15px;height:40px;line-height:40px;font-size:1.5rem;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;right:30px;}
+.myCar_infor_mid{width:100%;max-width:640px;margin:0 auto;background-color:#ffffff; }
+.myCar_infor_mid ul{width:100%;max-width:640px;margin:0 auto;height:auto;}
+.myCar_infor_mid ul li{position:relative;width:98%;border-bottom:1px solid #b5b5b5;height:60px;}
+.myCar_infor_mid ul li:last-child{border-bottom:1px solid #e5e5e5;}
+
+.myCar_infor_mid ul i{position:absolute;display:inline-block;width:24px;height:24px;top:20px;left:4px;}
+.myCar_infor_mid ul span{position:absolute;height:30px;top:22px;left:34px;font-size:14px;line-height:20px;color:#666666;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+.myCar_infor_mid ul input{position:absolute;border:none;background:none;left:110px;top:18px;height:30px;line-height:20px;padding:0 4%;}
+.myCar_infor_mid ul em{position:absolute;height:30px;top:24px;right:0px;font-size:1.6rem;line-height:20px;}
+
+
+.myCar_infor_mid ul i.i_2{background:url("../imagesWx/n_car_pai.png") no-repeat center center;background-size:22px auto;}
+.myCar_infor_mid ul i.i_3{background:url("../imagesWx/n_addr.png") no-repeat center center;background-size:22px auto;}
+.myCar_infor_mid ul i.i_1{background:url("../imagesWx/n_car.png") no-repeat center center;background-size:22px auto;}
+
+
+.myCar_infor_mid input.submit_ipt{width:95%;max-width:640px;background-color:#25c56e;height:44px;line-height:44px;text-align:center;border-radius:2px;color:#ffffff;
+    font-size:14px;border:none;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;margin:0 auto;margin-left:2%;}
+/*到店预约*/
+.appoin_box{width:96%;max-width: 640px;margin: 0 auto;height:auto;display: block;position: relative;}
+
+.n_fixed{position:fixed;bottom:14px;width:100%;height:auto;}
+
+.n_appion_box{background-color:#ffffff;width:99%;max-width:640px;margin:0 auto;/*border-top:1px solid #e5e5e5;*/}
+/*.appoin_box p{text-align: left;color: ;font-size: 1.6rem;height:30px;line-height: 30px;padding: 0 4px;;}*/
+
+
+/*.appoin_box label{width: 100%;height: 50px;line-height: 50px;margin: 0 auto;max-width:640px;position: relative;display: inline-block;}*/
+
+
+/*.appoin_box input{border: none;border-bottom: 1px dotted #abb9c6;width:96%;padding: 0 2%;height: 40px;line-height:16px;position: absolute;top: 10px;font-size: 14px;;}*/
+.xm_icon{position: absolute;background: url(../imagesWx/n_xm.png)no-repeat center center;display: inline-block;width: 26px;height: 26px;top:10px;right:0;background-size:22px auto;}
+.xm_time_icon{position: absolute;background: url(../imagesWx/n_tt.png)no-repeat center center;display: inline-block;width: 26px;height: 26px;top:16px;right:10px;background-size:22px auto;}
+
+.appoin_box_textarea{width:96%;max-width: 640px;margin: 0 auto;margin-top:8px;height:auto;}
+.appoin_box_textarea_t{width:94%;height:auto;min-height:60px;margin: 0 auto;padding:  8px 3%;}
+.appoin_box_textarea_t:focus{border: 1px solid #ABB9C6;}
+
+.car_box_{width:100%;/*background: url(../imagesWx/bg_Cars.png) no-repeat bottom right;*/max-width:640px;}
+
+.car_box_ li{position:relative;height:50px;line-height:50px;border-bottom:1px solid #b5b5b5;}
+.car_box_ li:last-child{border-bottom:none;}
+
+.appoin_box{width:100%;max-width:640px;margin:0 auto;background-color:#ffffff;height:auto;}
+
+
+
+
+
+#mileage{position:absolute;top:10px;height:30px;line-height:20px;border:none
+        ;padding:2px 1%;width:60%;border-bottom:1px solid #b5b5b5;color:#ff4657;font-size:16px;}
+
+
+.ip_span{position:absolute;display:inline-block;color:#fofofo;left:180px;}
+.ip_span_01{position:absolute;display:inline-block;color:#fofofo;right:30px;font-style:normal;}
+
+
+.car_box_top_pan_{background: url("../imagesWx/n_car.png") center center no-repeat;background-size:22px auto;}
+/*.car_box_ li:nth-child(1){position: relative;width: 99.8%;height: 50px;line-height: 50px;border-bottom: 2px solid #f1f5f8;background-color: #f1f5f8;color: #17354f;font-size: 16px;display: block;border-right: 1px solid #e2e3e5;border-top: 1px solid #e2e3e5;border-left: 1px solid #e2e3e5;}
+.car_box_ li:nth-child(2){position: relative;width: 99.8%;height: 50px;line-height: 50px;color: #929aa4;font-size: 16px;display:block;background-color: #FFFFFF;border-right: 1px solid #e2e3e5;border-left: 1px solid #e2e3e5;z-index: -888;}
+.car_box_ li:nth-child(3){position: relative;width: 99.8%;height: 50px;line-height: 50px;color: #929aa4;font-size: 16px;display: block;background-color: #FFFFFF;box-shadow: #929aa4;border-right: 1px solid #e2e3e5;border-bottom: 1px solid #e2e3e5;border-left: 1px solid #e2e3e5;z-index: -888;}*/
+
+/*促销列表*/
+
+.sale_box{width:100%;max-width: 640px;margin: 0 auto;}
+.sale_box ul{width:93.75%;max-width: 600px;margin: 0 auto;height: auto;}
+.sale_box ul li{width:100%;max-width: 600px;border: 2px solid #ced9e1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    display: block;position: relative;height: auto;margin: 3% 0;}
+.sale_box ul li a{width: 100%;height:auto;display: inline-block;}
+.sale_box ul li img{width: 100%;height: auto;
+    border-radius:4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+}
+.sale_box ul li span{border-radius:0 0 4px 4px;
+    -webkit-border-radius:0 0 4px 4px;
+    -moz-border-radius:0 0 4px 4px;display:block;width:94%;height:40px;background: #FFFFFF;line-height: 40px;padding: 0 3%;color: #17354f;font-size: 16px;;}
+
+/*预约成功*/
+.c_bg_top{width: 100%;max-width: 640px;height: 200px;margin: 0 auto;background-color: #17354f;position: relative;}
+.c_bg_top img{position: absolute;left: 50%;bottom: -35px;margin-left: -35px;width: 70px;height: auto;cursor: pointer;}
+.c_title{margin: 0 auto;color: #17354F;font-size: 20px;font-family: "微软雅黑";text-align: center;margin: 12% 0 3% 0;cursor: pointer;}
+.c_contet{text-align: center;font-size: 16px;color: #17354F;font-family: "微软雅黑";cursor: pointer;}
+
+
+/*保养方案*/
+
+.car_list_box_f{width:99.5%;max-width: 640px;margin: 0 auto;}
+.car_list_box_f>ul>li{width:99.5%;max-width: 640px;margin: 0 auto;margin-top:8px;height:auto;display: block;position: relative;}
+.car_box_f{width: 100%;/*background: url(../imagesWx/bg_Cars.png) no-repeat bottom right;*/margin-bottom: 10px;
+    /*-webkit-box-shadow:0 2px 10px #8d8d8d;
+    -moz-box-shadow:0 2px 10px #8d8d8d;
+     box-shadow:0 2px 10px #8d8d8d;*/}
+.car_box_p_l{margin-left:40px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;height: auto;background-size: 12px auto;-webkit-background-size:12px auto;z-index: 1}
+
+
+.ima_span{position: absolute;-webkit-background-size:22px auto;background-size:22px auto;width: 26px;height: 26px;display: inline-block;top: 13px;left:6px;}
+
+
+
+
+
+.n_car_box_p_l{margin-left:20px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;height: auto;z-index: 1;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;color:#333333;}
+.n_car_box_p_l i{font-style:normal;}
+
+
+
+.n_yuyue_ul{background-color:#ffffff;border-bottom:8px solid #f3f5f7;width:100%;margin:0 auto;max-width:640px;}
+
+.car_box_p{margin-left:40px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;height: auto;background: url("../imagesWx/n_narr.png") 95% center no-repeat;background-size:22px auto;-webkit-background-size:22px auto;z-index: 1;font-size:14px;}
+.car_box_p_02{margin-left:40px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;height: auto;color:#666666;font-family:"宋体", "microsoft yahei", Tahoma, Verdana, Arial, Helvetica, sans-serif;font-size:14px;}
+
+.car_box_p_02 i{font-size:16px;color:#ff4657;}
+
+.car_box_p i{font-style: normal;font-size: 22px;color: #ff4657}
+.car_delete{background: url("../imagesWx/n_dele.png") center center no-repeat;background-size: 22px auto;-webkit-background-size: 22px auto;width: 24px;height: 24px;position: absolute;right:6px;top: 42px;cursor: pointer;}
+.car_box_top_pan{background: url("../imagesWx/n_car.png") center center no-repeat;background-size:22px auto}
+.car_box_mid_pan{background: url("../imagesWx/n_car_pai.png") center center no-repeat;background-size:22px auto}
+.car_box_btm_pan{background: url("../imagesWx/n_addr.png") center center no-repeat;background-size:22px auto}
+.car_box_f li:nth-child(1){position: relative;width: 100%;height: 50px;line-height: 50px;border-bottom: 1px solid #b5b5b5;background-color: #f3f5f7;color: #ffffff;font-size: 16px;display: block;}
+.car_box_f li:nth-child(2){position: relative;width: 99.8%;height: 50px;line-height: 50px;color: #929aa4;font-size: 16px;display:block;background-color: #ffffff;border-bottom:1px solid #b5b5b5;z-index: -888;}
+.car_box_f li:nth-child(3){position: relative;width: 99.9%;height: 50px;line-height: 50px;color: #929aa4;font-size: 16px;display: block;background-color: #ffffff;box-shadow: #929aa4;/*border-right: 1px solid #e2e3e5;*/border-bottom: 1px solid #e5e5e5;/*border-left: 1px solid #e2e3e5*/;z-index: -888;}
+
+
+.send2 { margin-bottom: 10px;padding: 0 10px;}
+.plan-table { background-color: #fff;width: 100%;}
+.plan-title { background-color: #fff;border: 0 none;float: left;margin: 0;padding: 0;border-left:2px solid #17c7b1;}
+.plan-title table, .plan-title th, .plan-title td {;border: 1px solid #f3f3f3; width: 100%;}
+.plan-title th {
+    background-color: #fdfdff;
+    border: 1px solid #f3f3f3;
+    font-size:14px;
+    font-weight: 400;
+    height: 48px;
+    padding: 0 15px;
+    text-align: left;
+    line-height: 48px;
+}
+.plan-title td {
+    border: 1px solid #f3f3f3;
+    font-size:14px;
+   /* font-weight: 700;*/
+    height: 48px;
+    padding: 0 15px;
+    text-align: left;
+    width: 100%;
+    line-height: 48px;
+}
+.plan-items {
+    background-color: #fff;
+    border: 0 none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.plan-items table {
+    width: 100%;
+}
+.plan-items th {
+    background-color: #fdfdff;
+    border: 1px solid #f3f3f3;
+    font-size: 12px;
+    font-weight: 400;
+    height: 48px;
+    padding: 0 8px;
+    text-align: center;
+    line-height: 48px;
+}
+.plan-items td {
+    border: 1px solid #f3f3f3;
+    height: 48.5px;
+    padding: 0 8px;
+    text-align: center;
+    line-height: 48px;
+}
+.plan-items td span {
+    border-radius: 9999px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    margin-top:10px;
+}
+.plan-items td .items {
+    background-color: #ff7a7a;
+    color: #fff;
+}
+.plan-items td .nearItems {
+    border: 1px solid #f0d415;
+    color: #f0d415;
+}
+.plan-items td .otherItems {
+    border: 1px solid #98db62;
+    color: #98db62;
+}
+.plan-items .checkItem {
+    background-color: #fcfcff;
+}
+
+/*预约列表*/
+.appoin_List{width: 100%;max-width: 640px;height: auto;margin: 0 auto;padding: 5px 0 5px; }
+.appoin_List li{width: 100%;max-width: 640px;height: auto;margin: 0 auto;display: block;
+    /*-webkit-box-shadow:0 2px 6px #8d8d8d;
+    -moz-box-shadow:0 2px 6px #8d8d8d;
+    box-shadow:0 2px 6px #8d8d8d;*/
+    margin-bottom:10px;
+}
+
+.n_i_app_l{display:inline-block;width:26px;height:50px;position:absolute;top:0;left:4px;
+    background:url("../imagesWx/n_car.png") no-repeat center center;background-size:22px auto;}
+
+
+.n_i_appoin_List{height:50px;width:26px;display:inline-block;position:absolute;top:0;left:4px;background:url("../imagesWx/n_car.png") no-repeat center center;background-size:22px auto;}
+.appoin_List_top{position:relative;height:50px;line-height:50px;width:100%;max-width:640px;margin:0 auto;background-color:#f3f5f7;}
+.appoin_List_top p{/*background-color: #17354f;*/height:50px;/*border-bottom: 2px solid #ffa2ab;*/position: absolute;line-height:50px;color:#333333;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+    font-size:14px;width: 90%;
+    font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;left:34px;}
+/*.appoin_List_top h3{color: white;font-size: 18px;width: 90%;padding: 0 5%;height: 20px;line-height: 30px;position: relative;height: 30px;;}
+.appoin_List_top h3 i{width: 20px;height: 20px;display: inline-block;background: url(../imagesWx/icon_carss.png)no-repeat center center;background-size: 20px auto;position: absolute;left: 10%;margin-left: -26px;;}*/
+
+
+.n_s_appoin_List_{display:inline-block;width:auto;height:44px;position:absolute;left:34px;top:0;line-height:44px;color:#666666;
+    font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+.appoin_List_mid{background-color: white;height:auto;position: relative;border-top:1px solid #b5b5b5;border-bottom:1px solid #b5b5b5;}
+.appoin_List_mid h3{color: #666666;font-size: 14px;width:100%;height:44px;line-height:44px;position: relative;}
+.n_s_appoin_List{display:inline-block;width:auto;height:44px;position:absolute;left:34px;top:0;line-height:44px;color:#666666;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+.appoin_List_mid h3 .i_app{width:26px;height:44px;display: inline-block;background: url(../imagesWx/n_ttttt_.png)no-repeat center center;background-size: 22px auto;position: absolute;left:4px;top:0;}
+.appoin_List_mid h3 .i_appp{width:26px;height:44px;display: inline-block;background: url(../imagesWx/n_car_pai.png)no-repeat center center;background-size: 22px auto;position: absolute;left:4px;top:0;}
+.appoin_List_mid p{margin:0 auto;color: #ff4657;width:auto;height: 30px;line-height: 30px;font-size:18px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;padding-left:34px;}
+
+.appoin_List>li>p{background-color: #f3f5f7;font-size:14px;color: #666666;height:42px;line-height: 42px;width: 96%;padding: 0 2%;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;margin:0 auto;}
+
+.appoin_List span{width: 80px;height:40px;text-align: center;line-height:40px;color: #ff4657;background-color: white;font-size: 14px;;
+    position: absolute; top: 38px;right: 10px;border-left:1px solid #b5b5b5;}
+
+/*预约详情*/
+.appoin_d_box{width:100%;max-width: 640px;margin: 0 auto;height: auto;overflow-y: auto;background: white;}
+.appoin_d_box_top{background-color: #f3f5f7;height: 50px;line-height: 50px;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;position: relative;font-size:14px;color: #666666;}
+
+
+.n_carsss{display:inline-block;width:auto;height:50px;line-height:50px;color:#666666;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;position:absolute;top:0;left:34px;}
+
+.n_carsss_{display:inline-block;width:auto;height:30px;line-height:30px;color:#666666;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;position:absolute;top:0;left:34px;}
+
+.appoin_d_box_top i img{width: 100%;height: auto;z-index: 999;}
+.appoin_d_box_mid{}
+.appoin_d_box_mid_{position: relative;width: 100%;height:auto;background-color: white;padding:14px 0;border-bottom:1px solid #d5d5d5;border-top:1px solid #d5d5d5;}
+._1p{width: 100%;position: relative;font-size:14px;color: #666666;height: 30px;line-height: 30px;}
+._1p i{position: absolute;top:0;left:4px;background: url(../imagesWx/n_ttttt_.png) no-repeat center center;background-size: 22px auto;display: inline-block;width: 26px;height: 30px;}
+._2p{margin:0 auto;color: #ff4657;width:auto;height: 30px;line-height: 30px;font-size:18px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;padding-left:34px;}
+
+
+
+
+
+.appoin_d_box_mid_ span{position: absolute;height: 50px;top: 20px;right: 4px;
+    width: 90px;line-height: 50px;text-align: center;
+    border-left: 1px solid #d5d5d5;display: inline-block;color: #ff4657;font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
+
+.appoin_d_box_mid_d li{display: block;width: 100%;height:auto;}
+.appoin_d_box_mid_d li ._3p{padding-left:34px;position: relative;font-size:14px;color: #333333;height: 50px;line-height: 50px;background-color:#f3f5f7;}
+.appoin_d_box_mid_d li ._3p i{position: absolute;top:0;left:4px;background: url(../imagesWx/n_xm_1.png) no-repeat center center;background-size: 22px auto;display: inline-block;width:26px;height:50px;}
+.appoin_d_box_mid_d li ._4p{
+    width: 76%;padding: 16px 12%;position: relative;
+    font-size:14px;line-height: 22px;min-height:80px;color: #666666;border-bottom:1px solid #d5d5d5;
+}
+
+.appoin_d_box_mid_d li ._5p{width: 76%;padding: 0 12%;position: relative;font-size: 16px;color: #929aa4;height: 40px;line-height: 40px;}
+.appoin_d_box_mid_d li ._5p i{position: absolute;top: 10px;left:6px;background: url(../imagesWx/icon_n_2.png) no-repeat center center;background-size: 20px auto;display: inline-block;width: 20px;height: 20px;}
+.appoin_d_box_mid_d li ._6p{width: 76%;padding: 0 12%;position: relative;font-size: 16px;line-height: 22px;min-height:40px;color: #17354f;}
+
+
+.appoin_d_box_dd{width:100%;max-width: 640px;margin: 0 auto;height: auto;overflow-y: auto;background: white; margin-bottom:10px;}
+.appoin_d_box_dd ul{width: 100%;max-width: 640px;height:auto;text-align: center;margin:0 auto;}
+.appoin_d_box_dd ul li{display: inline-block;width:26%;position: relative;margin-left:5%;}
+.appoin_d_box_dd ul li ._1pp{width:70%;padding: 0 5%;height: 30px;line-height: 30px;text-align: center;color: #666666;font-size:12px;;}
+.appoin_d_box_dd ul li ._2pp{width:70%;padding: 0 5%;height: 30px;line-height: 30px;text-align: center;color: #ff4657;font-size: 14px;}
+.appoin_d_box_dd ul li span{width: 20px;height: 20px;background-size: 20px auto;position: absolute;top: 20px;left:-20px;}
+._1sp{background: url(../imagesWx/n_car_pai.png) no-repeat center center;}
+._2sp{background: url(../imagesWx/n_tx.png) no-repeat center center;}
+._3sp{background: url(../imagesWx/n_sssss.png) no-repeat center center;}
+._4sp{background: url(../imagesWx/n_qqqq.png) no-repeat center center;}
+._5sp{background: url(../imagesWx/n_zzzzz.png) no-repeat center center;}
+._6sp{background: url(../imagesWx/n_pppp.png) no-repeat center center;}
+
+
+.appoin_d_box_tt{width:100%;max-width: 640px;margin: 0 auto;height: auto;overflow-y: auto;background: white;}
+.table_tt{position: relative;}
+.table_tt span{display: inline-block;width:100%;height: 50px;line-height: 50px;color: #333333;
+font-size: 14px;background-color: #f3f5f7;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+text-align:center;border-bottom:1px solid #d5d5d5;}
+.table_tt table{width: 100%;margin: 0 auto;}
+.table_tt table th{text-align: center;font-size:14px;color: #17354f;height: 26px;line-height: 36px;}
+.table_tt table td{text-align: center;font-size:14px;color: #666666;height: 26px;line-height: 26px;border: 1px solid #c9c9c9;}
+.table_tt table td:nth-child(3){color: #ef5e44;}
+
+
+/*维修记录*/
+.x_record{width:100%;margin: 0 auto;max-width: 640px;/*height: 300px;*/margin-top: 4px;margin-bottom: 4px;}
+.x_record_List{display: block;width: 100%;height: auto;
+   /* -webkit-box-shadow:0 2px 6px #8d8d8d;
+    -moz-box-shadow:0 0px 2px #8d8d8d;
+    box-shadow:0 0px 2px #8d8d8d;*/margin-bottom:10px;}
+.x_record_List a{width: 100%;height: auto;}
+/*.x_record_List_top{width: 100%;height: 60px;background-color: #17354f;border-bottom: 2px solid #ff949e;}
+.x_record_List_top h2{height: 30px;line-height: 30px;padding: 0 10%;text-align: left;font-size: 1.6rem;color: white;font-style: normal;width: 80%;}
+.x_record_List_top p{height: 30px;line-height: 30px;padding: 0 10%;text-align: left;font-size: 1.4rem;color: white;font-style: normal;width: 80%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis}*/
+.x_record_List_mid{width: 100%;height:auto;background-color: white;}
+.x_record_List_mid h2{border-bottom:1px solid #b5b5b5;width: 80%;padding: 0 10%;color: #17354F;font-size:14px;text-align: left;position: relative;height:50px;line-height:50px;text-overflow: ellipsis;overflow: hidden;white-space: normal;background-color:#f3f5f7;}
+.x_record_List_mid h2 i{display: inline-block;width:26px;height:26px;position: absolute;top:12px;left:4px;background: url(../imagesWx/n_car.png) center center;background-size: 22px auto;
+    text-overflow: ellipsis;white-space: normal;overflow: hidden;}
+.x_record_List_mid ul{text-align: center;height: auto;background:url("../imagesWx/n_line.png") no-repeat center center;background-size:auto 30px;}
+.x_record_List_mid ul li{width:40%;display: inline-block;height:50px;line-height:50px;position: relative;text-align: center;font-size:14px;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;color:#666666;}
+.x_record_List_mid ul li span{text-align: center;;font-size:14px;color: #666666;font-family:"microsoft yahei", "宋体", Tahoma, Verdana, Arial, Helvetica, sans-serif;height:50px;display: inline-block;line-height:50px;position: absolute;left: 0;}
+.ss_01{}
+.ss_02{}
+
+.x_record_List_mid ul li em{display: inline-block;font-style: normal;color:#ff4657;}
+
+.x_record_List_bottom{border-bottom:1px solid #b5b5b5;background-color: #ffffff;padding:0 10%;width: 80%; position: relative;height:50px;line-height:50px;text-align: center;}
+.x_record_List_bottom i{width:26px;height:50px;background: url(../imagesWx/n_ttttt_.png) no-repeat center center;position: absolute;left: 4px;background-size:22px auto;}
+.x_record_List_bottom span{height:50px;line-height:50px;text-align: center;color:#666666;font-size: 14px;display: inline-block;overflow: hidden;white-space: normal;text-overflow: ellipsis;position: absolute;}
+.x_record_List_bottom span img{width:auto;height:22px;margin-top:14px;}
+.ssss_l{left:30px;}
+.ssss_r{right:16px;}
+.ssss_m{background: url(../imagesWx/icon_arr.png) no-repeat center center;background-size:auto 20px;}
+
+
+
+.s_p{position:absolute;top:10px;left:120px;height:40px;line-height:40px;width:26px;background:none;border:1px solid #f1f1f1;}
+.s_s{position:absolute;top:10px;left:160px;height:40px;line-height:40px;width:26px;background:none;border:1px solid #f1f1f1;}
+
+
+
+
+
+
+
+
+
+
+

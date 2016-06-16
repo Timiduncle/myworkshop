@@ -1,0 +1,47 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      border:0;
+      outline:0;
+      font-weight: inherit;
+      font-style: inherit;
+      font-family: inherit;
+      vertical-align: baseline;
+}
+table{border-collapse: collapse;
+    border-spacing: 0}
+textarea{margin: 0;padding: 0;}
+textarea:focus{background: none;}
+article, aside, details, figcaption, figure, footer, header,menu, nav, section {display: block;}
+body{-webkit-user-select: none;-webkit-text-size-adjust: none}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-appearance: none;outline: none;}
+html{-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;font-size:62.5%;}
+a{-webkit-touch-callout:none;text-decoration: none;}
+img{max-width:100%;height:auto;width:auto\9;/* ie8 */border:none;display: block;-webkit-touch-callout:none;border:0;}
+textarea {resize:none;}/*textarea不可拖动*/
+a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+/*-webkit-overflow-scrolling: touch;*/  /*滚动条代码，爷爷级高度要多11px;父亲级正常高度即可*/
+input:focus {outline: none;}/*影响性能慎用,去掉出发焦点时的边框颜色*/
+input:focus::-webkit-input-placeholder{color: transparent;}/*修正input的placehoder样式一样，否则当焦点时，会显示不同*/
+input[type="search"]{-webkit-appearance:textfield;}
+::-webkit-input-placeholder{}/*将自定样式写入括号*/
+/*noinspection ALL*/
+::-moz-input-placeholder{}/*将自定样式写入括号*/
+input[type="search"]{-webkit-appearance: none;outline:none;}
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration{display: none;}
+/*input样式重置结束*/
+.clear{clear: both;}
+html {}
+.clearfix:after{ content:"."; visibility: hidden; height:0;display: block;clear:both;}
+.clearfix{zoom:1;}
